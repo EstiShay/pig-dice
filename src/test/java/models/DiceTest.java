@@ -16,7 +16,8 @@ public class DiceTest {
     @Test
     public void numGenerator_createsRandomNumber_1to6() throws Exception {
         Dice testDice = new Dice();
-        assertEquals(true, assertTrue(0 < testDice.numGenerator && testDice.numGenerator <= 6));
+        boolean checkNum = (0 < testDice.numGenerator() && testDice.numGenerator() <= 6);
+        assertEquals(true, checkNum);
     }
 
 }
