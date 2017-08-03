@@ -22,6 +22,7 @@ Rewriting Pig Dice with Java
 | Roll die, get a random number | Roll | 5 |
 | If the number is 1, turn is over | 1 | Turn over |
 | If the number is 2-6, number is added to total | Roll: 4 | Total: 4 |
+| Turn passes to other player when a player rolls a 1 | Player 1: 1 | Player 2 rolls next |
 
 
 
