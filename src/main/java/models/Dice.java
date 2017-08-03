@@ -14,6 +14,16 @@ public class Dice {
         return aRandNum +=1;
     }
 
+    public String numEvaluator(int num) {
+        if (num == 1) {
+            return "Turn over";
+        } else if (num > 0 && num < 7) {
+            return "adding to score";
+        } else {
+            return "error";
+        }
+    }
+
 
 
 }
