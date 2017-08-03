@@ -20,4 +20,9 @@ public class DiceTest {
         assertEquals(true, checkNum);
     }
 
+    @Test
+    public void numEvaluator_checkForOnes_turnOver() throws Exception {
+        Dice testDice = new Dice();
+        assertEquals("Turn over", testDice.numEvaluator(1));
+    }
 }
