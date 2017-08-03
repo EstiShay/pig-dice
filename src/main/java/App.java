@@ -18,6 +18,12 @@ public class App {
             newGame.player1Total += rollDie;
         }
 
+        //Player 2 rolls the die
+        int rollDie = ourDice.numGenerator();
+        String rollOutput = ourDice.numEvaluator(rollDie);
+        if (rollOutput.equals("Adding to your score")) {
+            newGame.player2Total += rollDie;
+        }
 
     }
 }
