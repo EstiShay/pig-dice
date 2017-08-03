@@ -18,9 +18,9 @@ public class Dice {
         if (num == 1) {
             return "Turn over";
         } else if (num > 0 && num < 7) {
-            return "adding to score";
+            return "Adding to your score";
         } else {
-            return "error";
+            return "Error";
         }
     }
 
