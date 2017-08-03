@@ -19,7 +19,10 @@ Rewriting Pig Dice with Java
 
 | Behavior      | Example Input      | Example Output       |
 | ------------- | ------------- | ------------- |
-|
+| Roll die, get a random number | Roll | 5 |
+| If the number is 1, turn is over | 1 | Turn over |
+| If the number is 2-6, number is added to total | Roll: 4 | Total: 4 |
+
 
 
 
