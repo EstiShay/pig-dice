@@ -25,4 +25,10 @@ public class DiceTest {
         Dice testDice = new Dice();
         assertEquals("Turn over", testDice.numEvaluator(1));
     }
+
+    @Test
+    public void numEvaluator_checkForOnes_addToTotal() throws Exception {
+        Dice testDice = new Dice();
+        assertEquals("adding to score", testDice.numEvaluator(5));
+    }
 }
